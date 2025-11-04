@@ -91,6 +91,14 @@ error: failed-wheel-build-for-install
 ╰─> lxml, pydantic-core
 ```
 
+**GÜNCELLENME: Python 3.13 Uyumluluk Sorunu Çözüldü**
+```
+- pydantic 2.5.0 → 2.14.6 (Python 3.13 uyumlu)
+- lxml 4.9.3 → Kaldırıldı (beautifulsoup4 zaten var)
+- slowapi ve aioredis → Kaldırıldı (import hataları)
+- nixpacks.toml → Sistem paketleri güncellendi
+```
+
 **Çözüm:**
 1. `nixpacks.toml` - Railway build environment'ına sistem paketleri ekler
 2. `pyproject.toml` - Python build dependencies belirtir

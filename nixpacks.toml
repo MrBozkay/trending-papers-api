@@ -1,10 +1,8 @@
 [phases.setup]
-# System dependencies for Python packages with C extensions
+# System dependencies for Python packages
 packages = [
     'build-essential',
     'python3-dev', 
-    'libxml2-dev',
-    'libxslt1-dev',
     'pkg-config',
     'libffi-dev',
     'libssl-dev'
